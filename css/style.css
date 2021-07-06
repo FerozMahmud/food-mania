@@ -1,0 +1,36 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+.orange-color{
+    color: orange;
+}
+
+section{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.adjust-width{
+    width: 50%;
+    padding: 5%;
+    font-size: 130%; 
+}
+
+.adjust-width img{
+    width: 80%;
+}
+
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(to top, orange, red, tomato);
+    padding: 10px 30px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5%;
+}
+
+.about-me-banner{
+    background-image: url(images/frame-1.png);
+}

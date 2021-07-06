@@ -3,19 +3,32 @@ body{
     text-align: justify;
 }
 
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 25px;
+}
+
 .orange-color{
     color: orange;
 }
 
-section{
+.flexible{
     display: flex;
     margin-bottom: 100px;
 }
 
 .adjust-width{
     width: 50%;
-    padding: 5%;
-    font-size: 130%; 
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
 }
 
 .adjust-width img{
@@ -31,6 +44,22 @@ section{
     border-radius: 5%;
 }
 
-.about-me-banner{
+.about-me-area{
     background-image: url(images/frame-1.png);
+}
+
+#my-recipies{
+    display: block;
+}
+
+.recipies-shadow{
+    width: 30%;
+    margin: 2%;
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px gray;
+}
+
+.recipies-shadow img{
+    text-align: center;
 }

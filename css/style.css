@@ -1,7 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
     text-align: justify;
-    background-color: rgb(250, 255, 255);
     margin: 0;
     padding: 0;
 }
@@ -9,12 +8,11 @@ body{
 #header{
     width: 100%;
     height: 50px;
-    background-color: teal;
+    background-color: orangered;
 }
 
 ul{
     width: auto;
-    /* float: right; */
     margin-top: 8px;
     
 }
@@ -24,6 +22,10 @@ li{
     padding: 15px 30px;
     
 }
+
+#topnav-right {
+    float: right;
+  }
 
 a{
     text-align: center;
@@ -74,24 +76,36 @@ h3{
     border-radius: 5%;
 }
 
-.about-me-area{
-    background-image: url(images/frame-1.png);
+.recipies{
+    text-align: center;
 }
+
 
 #my-recipies{
     display: block;
 }
 
 .recipies-shadow{
-    width: 20%;
-    margin: 4%;
+    width: 33%;
+    margin: 2%;
     padding: 25px;
     border-radius: 10px;
     box-shadow: 10px 10px 20px gray;
 }
+ .recipies img{
+    border-radius: 5%;
 
+ }
 
-
+.social-menu ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
 
 footer{
     text-align: center;
